@@ -1,10 +1,8 @@
 # WeInvestAssessment
 Framework used - BDD with POM
 Language- JAVA
-
-
-
 Test cases Covered
+
 Test B
 1. Navigate to https://sfo-demo.herokuapp.com/model-portfolio
 2. Select “All Weather Strategy” by clicking on “Explore Investment Ideas”
@@ -15,6 +13,7 @@ Test B
 7. Click “Add Stock” in “BT Group plc” row.
 8. Click on “Done”
 9. Check whether “BT Group plc” is added to the portfolio
+
 Test C
 1. Navigate to https://sfo-demo.herokuapp.com/model-portfolio
 2. Check whether tabs with below texts are available (Where X, Y are are numbers)
