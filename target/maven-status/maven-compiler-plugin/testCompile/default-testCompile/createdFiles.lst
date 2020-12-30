@@ -1,0 +1,7 @@
+com\weinvest\stepdefinition\AllWeatherStrategySD.class
+com\weinvest\stepdefinition\HomePageSD.class
+com\weinvest\base\Hooks.class
+com\weinvest\stepdefinition\PortfolioSD.class
+com\weinvest\base\CucumberRunner.class
+com\weinvest\stepdefinition\BasicSD.class
+com\weinvest\base\DriverBaseClass.class

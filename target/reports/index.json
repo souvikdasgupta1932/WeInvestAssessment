@@ -1,0 +1,504 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13534242900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialisation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add Stock BT Group plc and Validate",
+        "description": "",
+        "id": "add-stock-and-validate;add-stock-bt-group-plc-and-validate",
+        "after": [
+          {
+            "result": {
+              "duration": 196600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1349500600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 364930300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the \"WeInvest | Simple, Smart, Transparent Investing\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WeInvest | Simple, Smart, Transparent Investing",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageSD.i_am_on_the_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3243311300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user clicks on \"Explore Investment Ideas\" under \"All Weather Strategy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Explore Investment Ideas",
+                  "offset": 20
+                },
+                {
+                  "val": "All Weather Strategy",
+                  "offset": 53
+                }
+              ],
+              "location": "HomePageSD.the_user_clicks_on_under(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74717800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user verify \"ALL WEATHER STRATEGY\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ALL WEATHER STRATEGY",
+                  "offset": 17
+                }
+              ],
+              "location": "AllWeatherStrategySD.the_user_verify_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4388282000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user click on \"Customize Portfolio\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customize Portfolio",
+                  "offset": 19
+                }
+              ],
+              "location": "AllWeatherStrategySD.the_user_click_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 292359200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user is on the \"Portfolio Constituents\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolio Constituents",
+                  "offset": 20
+                }
+              ],
+              "location": "PortfolioSD.the_user_is_on_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771378200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user click on \"Customise\" button on Portfolio Page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customise",
+                  "offset": 19
+                }
+              ],
+              "location": "PortfolioSD.the_user_click_on_button_on_Portfolio_Page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127847100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify \"Customise\" text changes to \"Reset\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Customise",
+                  "offset": 8
+                },
+                {
+                  "val": "Reset",
+                  "offset": 36
+                }
+              ],
+              "location": "PortfolioSD.verify_text_changes_to_button(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 256989000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on \"Add Stock\" under \"US EQUITIES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Add Stock",
+                  "offset": 10
+                },
+                {
+                  "val": "US EQUITIES",
+                  "offset": 28
+                }
+              ],
+              "location": "PortfolioSD.click_on_under(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1206240800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "add \"BT Group plc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BT Group plc",
+                  "offset": 5
+                }
+              ],
+              "location": "PortfolioSD.add(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 238793700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on \"Done\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Done",
+                  "offset": 10
+                }
+              ],
+              "location": "PortfolioSD.click_on_button(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227071500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user is on the \"Portfolio Constituents\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolio Constituents",
+                  "offset": 20
+                }
+              ],
+              "location": "PortfolioSD.the_user_is_on_the_page(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143196100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "verify \"BT Group plc\" added to \"US EQUITIES\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BT Group plc",
+                  "offset": 8
+                },
+                {
+                  "val": "US EQUITIES",
+                  "offset": 32
+                }
+              ],
+              "location": "PortfolioSD.verify_added_to(String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add Stock and Validate",
+    "description": "",
+    "id": "add-stock-and-validate",
+    "keyword": "Feature",
+    "uri": "AddStockAndValidate.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10187678800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initialisation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate text resizing after the window has been re-sized",
+        "description": "",
+        "id": "text-validation-on-window-resizing;validate-text-resizing-after-the-window-has-been-re-sized",
+        "after": [
+          {
+            "result": {
+              "duration": 50500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.failedScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 720706400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25083900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the \"WeInvest | Simple, Smart, Transparent Investing\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "WeInvest | Simple, Smart, Transparent Investing",
+                  "offset": 13
+                }
+              ],
+              "location": "HomePageSD.i_am_on_the_page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53115600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user verify text \"Portfolio recommendations based on your preferences\" is present in the tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolio recommendations based on your preferences",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSD.the_user_verify_text_is_present_in_the_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41683000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user verify text \"other portfolio choices available\" is present in the tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other portfolio choices available",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSD.the_user_verify_text_is_present_in_the_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 287199100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user resize the window to \"375\" and \"667\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "375",
+                  "offset": 31
+                },
+                {
+                  "val": "667",
+                  "offset": 41
+                }
+              ],
+              "location": "HomePageSD.the_user_resize_the_winow_to_and(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26191600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the user verify text \"Recommended\" is present in the tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Recommended",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSD.the_user_verify_text_is_present_in_the_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22917700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user verify text \"Others\" is present in the tab",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Others",
+                  "offset": 22
+                }
+              ],
+              "location": "HomePageSD.the_user_verify_text_is_present_in_the_tab(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42560000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the user verify if the count displayed for \"Portfolio recommendations based on your preferences\" same as \"Recommended\" before resizing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Portfolio recommendations based on your preferences",
+                  "offset": 44
+                },
+                {
+                  "val": "Recommended",
+                  "offset": 106
+                }
+              ],
+              "location": "HomePageSD.the_user_verify_if_the_count_displayed_for_same_as_before_resizing(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42578200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user verify if the count displayed for \"other portfolio choices available\" same as \"Others\" before resizing",
+            "match": {
+              "arguments": [
+                {
+                  "val": "other portfolio choices available",
+                  "offset": 44
+                },
+                {
+                  "val": "Others",
+                  "offset": 88
+                }
+              ],
+              "location": "HomePageSD.the_user_verify_if_the_count_displayed_for_same_as_before_resizing(String,String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Text Validation on window resizing",
+    "description": "",
+    "id": "text-validation-on-window-resizing",
+    "keyword": "Feature",
+    "uri": "TabResizingAndValidation.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Feature"
+      }
+    ]
+  }
+]
